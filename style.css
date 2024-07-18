@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'miama';
+    src: url('./fonts/miama.regular.ttf') format('truetype'); 
+}
+body {
+    font-family: 'inter', sans-serif;
+    background: #000000;
+    margin: 0;
+}
+.fitness-header{
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+}
+.fitness-header-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.fitness-nav{
+    padding: 57px 20px;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    color: #E6533C;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    text-decoration: none;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 47px;
+    padding: 4px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+.nav-link a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-link a:hover {
+    border-radius: 46px;
+    background: #E6533C;
+    font-weight: 600;
+}
+
+/****************Hero Sectiuon*******************/
+.hero-section{
+    padding: 40px 20px 76px 20px;
+}
+.hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-self: center;
+
+}
+.hero-content-wrapper{
+    max-width: 520px;
+}
+.hero-content-wrapper h1{
+    color: #FFF;
+    font-size: 78px;
+    font-weight: 900;
+}
+.hero-content-wrapper p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.hero-button-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.hero-button-wrapper .hero-button-1{
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    border: none;
+}
+.hero-button-wrapper .hero-button-2{
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    background-color: transparent;
+}
