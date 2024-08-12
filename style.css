@@ -126,6 +126,11 @@ h1,h2,h3,h4,h5,h6,p{
     width: fit-content;
     
 }
+.work-coundown-content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 .work-coundown h1{
     color: #FFF;
     font-size: 40px;
@@ -133,12 +138,13 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 40px;
     letter-spacing: 1px;
 }
-.work-coundown{
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 13px;
-    line-height: 20px;
-    letter-spacing: 1px;
+.work-coundown p{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 }
+
 .workout-section {
     position: relative;
     width: fit-content;
